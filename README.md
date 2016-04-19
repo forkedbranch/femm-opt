@@ -2,7 +2,7 @@
 
 An example of parametric optimization procedure applied to a textbook electrostatics problem.
 
-For associated article see: <a href="http://forkedbranch.eu/en/writings/" target="_blank">Designing for Curiosity: A Case of Optimization in Computer Aided Engineering</a>
+For associated article see: <a href="http://forkedbranch.eu/en/designing-curiosity-case-optimization-computer-aided-engineering/" target="_blank">Designing for Curiosity: A Case of Optimization in Computer Aided Engineering</a>
 
 ## Installing Dependencies ##
 
@@ -74,6 +74,6 @@ Go to your output folder and look for `OptimizationMovie.mp4`. you may also be i
 
 ## Using the code ##
 
-Feel free to use the code in your research. We have included some comments in the source. We took some shortcuts though - treat it as a sketch.
+Feel free to use the code in your research. We have included some comments in the source. We took some shortcuts though - treat it as a sketch. To explore the topic further - try inroducing a third design variable.
 
 If you would like to apply optimization in your domain - get in touch with us by visiting [the forkedbranch website](http://forkedbranch.eu). 
