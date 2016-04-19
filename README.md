@@ -40,7 +40,7 @@ C:\Users\bartek>pip install Pillow
 
 Go to: <http://www.femm.info/wiki/Download/>
 
-Download the 640bit executable. Install.
+Download the 64-bit executable. Install.
 
 **Install ffmpeg Encoder**
 
