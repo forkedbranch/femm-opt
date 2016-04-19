@@ -30,9 +30,11 @@ Download the following WHL files (note that version numbers may change).
 
 To install start a windows command line and use the Python pip tool (rep:
 
-`C:\Users\bartek>pip install Downloads\NLopt-2.4.2-cp35-none-win_amd64.whl`
-`C:\Users\bartek>pip install Downloads\matplotlib-1.5.1-cp35-none-win_amd64.whl`
-`C:\Users\bartek>pip install Pillow`
+```
+C:\Users\bartek>pip install Downloads\NLopt-2.4.2-cp35-none-win_amd64.whl
+C:\Users\bartek>pip install Downloads\matplotlib-1.5.1-cp35-none-win_amd64.whl
+C:\Users\bartek>pip install Pillow
+```
 
 **Install Femm (Finite Element Method Magnetics)**
 
