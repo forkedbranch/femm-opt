@@ -1,6 +1,8 @@
-# femmopt #
+# femm-opt #
 
-An example 
+An example of parametric optimization procedure applied to a textbook electrostatics problem.
+
+For associated article see: <http://forkedbranch.eu/en/writings/>.
 
 ## Installing Dependencies ##
 
@@ -25,11 +27,12 @@ Go to: <http://www.lfd.uci.edu/~gohlke/pythonlibs>
 Download the following WHL files (note that version numbers may change).
  * NLopt-2.4.2-cp35-none-win_amd64.whl
  * matplotlib-1.5.1-cp35-none-win_amd64.whl
- * Pillow-3.2.0-cp35-cp35m-win_amd64.whl
 
 To install start a windows command line and use the Python pip tool (rep:
 
 `C:\Users\bartek>pip install Downloads\NLopt-2.4.2-cp35-none-win_amd64.whl`
+`C:\Users\bartek>pip install Downloads\matplotlib-1.5.1-cp35-none-win_amd64.whl`
+`C:\Users\bartek>pip install Pillow`
 
 **Install Femm (Finite Element Method Magnetics)**
 
@@ -43,6 +46,32 @@ Go to: <https://ffmpeg.zeranoe.com/builds/>
 
 Download the latest 64-bit statically (Static) linked version. Extract ffmpeg.exe (from /bin directory in the archive) to the `C:\ffmpeg` folder. 
 
-## Running the experiment##
+## Running the experiment ##
 
-Download zip of this repository
+Download zip of this repository. We will assume you extracted it in `c:\femm-opt-master`.
+Edit `femm-opt-master\src\config.ini` to match locations of your executables. Set the output directory. An example configuration may look like:
+
+```
+[DEFAULT]
+InputFolder = C:/femm-opt-master/input
+OutputForlder = C:/Temp/Femmopt
+FemmExe = C:/femm42/bin/femm.exe
+FfmpegExe = C:/ffmpeg/ffmpeg.exe
+FemmScrTempl = main.lua
+FemmScrLib = calculate_field.lua
+```
+
+To run the experiment start windows command line and invoke the following:
+
+```
+C:\Users\bartek>cd c:\femm-opt-master\src
+C:\femm-opt-master\src>python main.py
+```
+
+Go to your output folder and look for `OptimizationMovie.mp4`. you may also be interested in `_eval.dat` files.
+
+## Using the code ##
+
+Feel free to use the code in your research. We have included some comments in the source. We took some shortcuts though - treat it as a sketch.
+
+If you would like to apply optimization in your domain - get in touch with us by visiting [the forkedbranch website](http://forkedbranch.eu). 
