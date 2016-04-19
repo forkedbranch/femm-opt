@@ -2,7 +2,7 @@
 
 An example of parametric optimization procedure applied to a textbook electrostatics problem.
 
-For associated article see: <http://forkedbranch.eu/en/writings/>.
+For associated article see: <a href="http://forkedbranch.eu/en/writings/" target="_blank">Designing for Curiosity: A Case of Optimization in Computer Aided Engineering</a>
 
 ## Installing Dependencies ##
 
@@ -10,19 +10,19 @@ We will guide you through installing all the tools needed to run the optimizatio
 
 **Install Python 3**
 
-Go to: <https://www.python.org/downloads/windows/>
+Go to: <a href="https://www.python.org/downloads/windows/" target="_blank">https://www.python.org/downloads/windows/</a>
 
 Download the latest version x86-64 version (3.5.1 at the time of writing). Double check you're downloading the 64-bit version. During installation choose 'Add Python 3.5 to PATH' - it makes things easier.
 
 **Install Microsoft Visual C 2015 Runtime**
 
-Go to: <http://www.microsoft.com/en-us/download/details.aspx?id=48145>
+Go to: <a href="http://www.microsoft.com/en-us/download/details.aspx?id=48145" target="_blank">http://www.microsoft.com/en-us/download/details.aspx?id=48145</a>
 
 Download the x64 version of the package. Install.
 
 **Install Required Python Libraries**
 
-Go to: <http://www.lfd.uci.edu/~gohlke/pythonlibs>
+Go to: <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs</a>
 
 Download the following WHL files (note that version numbers may change).
  * NLopt-2.4.2-cp35-none-win_amd64.whl
@@ -38,13 +38,13 @@ C:\Users\bartek>pip install Pillow
 
 **Install Femm (Finite Element Method Magnetics)**
 
-Go to: <http://www.femm.info/wiki/Download/>
+Go to: <a href="http://www.femm.info/wiki/Download/" target="_blank">http://www.femm.info/wiki/Download/</a>
 
 Download the 64-bit executable. Install.
 
 **Install ffmpeg Encoder**
 
-Go to: <https://ffmpeg.zeranoe.com/builds/>
+Go to: <a href="https://ffmpeg.zeranoe.com/builds/" target="_blank">https://ffmpeg.zeranoe.com/builds/</a>
 
 Download the latest 64-bit statically (Static) linked version. Extract ffmpeg.exe (from /bin directory in the archive) to the `C:\ffmpeg` folder. 
 
