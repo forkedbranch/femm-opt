@@ -1,3 +1,6 @@
+# (c) Copyright 2016 forkedbranch (http://forkedbranch.eu/)
+# Licensed under the Apache License, Version 2.0
+
 import matplotlib.pyplot as plt
 import matplotlib
 from os import path

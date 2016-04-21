@@ -1,3 +1,6 @@
+# (c) Copyright 2016 forkedbranch (http://forkedbranch.eu/)
+# Licensed under the Apache License, Version 2.0
+
 from PIL import Image, ImageColor, ImageFont, ImageDraw
 from os import path, system, chdir
 from shutil import copy2

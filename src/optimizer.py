@@ -1,3 +1,6 @@
+# (c) Copyright 2016 forkedbranch (http://forkedbranch.eu/)
+# Licensed under the Apache License, Version 2.0
+
 import femm
 import nlopt
 import os
@@ -31,14 +34,15 @@ def optimize(algorithm, experiment_name, output_folder):
         
     opt = nlopt.opt(algorithm, 2)
     
+    # hard coded ranges for design variables
     opt.set_lower_bounds([-0.5, 0.1]) 
     opt.set_upper_bounds([0.5, 1.4])
+    
     opt.set_min_objective(partial(objective_function,
                                   experiment_name=experiment_name,
                                   output_folder=output_folder))
     opt.set_xtol_abs(0.01)
     opt.set_maxeval(50)
-    
     
     x = opt.optimize([0, 0.65])
     minf = opt.last_optimum_value()

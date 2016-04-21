@@ -1,3 +1,6 @@
+# (c) Copyright 2016 forkedbranch (http://forkedbranch.eu/)
+# Licensed under the Apache License, Version 2.0
+
 import configparser
 
 config = configparser.ConfigParser()

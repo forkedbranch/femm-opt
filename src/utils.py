@@ -1,3 +1,6 @@
+# (c) Copyright 2016 forkedbranch (http://forkedbranch.eu/)
+# Licensed under the Apache License, Version 2.0
+
 def write_evallog(file, evaluations):
     with open(file, "w") as f:
         f.write('{:<10s} {:>10s} {:>10s} {:>10s} {:>10s}\n'.format 
